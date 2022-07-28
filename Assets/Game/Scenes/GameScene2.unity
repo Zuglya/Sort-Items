@@ -168,8 +168,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6253002082144309253, guid: 0348fb52c73c1f94fa03eeb4c72cde12, type: 3}
-  _count: 20
+  _count: 30
   _range: {x: 1.8, y: 0.2, z: 3}
+--- !u!114 &48168061 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2249725528256620922, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+  m_PrefabInstance: {fileID: 646402859198453750}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed58f3fd0ebbc14c8eadbd11d4b72fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317913909
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 1350532744221910166, guid: 43608985d6893294da67649b1e0c4c50, type: 3}
-  _count: 20
+  _count: 5
   _range: {x: 1.8, y: 0.2, z: 3}
 --- !u!4 &317913911
 Transform:
@@ -765,6 +776,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1457274136605694086, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2249725528256620922, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
       propertyPath: targetCount
       value: 3
@@ -830,6 +845,18 @@ PrefabInstance:
       value: Scene Base
       objectReference: {fileID: 0}
     - target: {fileID: 5090197174147177463, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+      propertyPath: _getters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090197174147177463, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+      propertyPath: _getters.Array.data[0].getter
+      value: 
+      objectReference: {fileID: 48168061}
+    - target: {fileID: 5090197174147177463, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+      propertyPath: _getters.Array.data[0].targetCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090197174147177463, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
       propertyPath: onFull.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -868,6 +895,10 @@ PrefabInstance:
     - target: {fileID: 6674694775342054166, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6995526010533518369, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.327
       objectReference: {fileID: 0}
     - target: {fileID: 8231274224592058731, guid: 5d9a45902b4283a4b9b30d8413be85db, type: 3}
       propertyPath: m_Size.y
